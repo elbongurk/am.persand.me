@@ -1,0 +1,223 @@
+@import url("../twentythirteen/style.css");
+/*
+Theme Name:     Ampersand Theme
+Theme URI:      http://example.com/
+Description:    Child theme for my site
+Author:         Your name here
+Author URI:     http://example.com/about/
+Template:       twentythirteen
+Version:        0.2.0
+*/
+/*div#primary {
+	background: #f7f5e7;
+}
+
+div#content {
+	width: 90%;
+	margin: 0 auto;
+	}
+*/
+h7 {
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+  line-height: 0; }
+
+.note {
+  font-size: .75em;
+  font-style: italic; }
+
+header#masthead {
+  background-color: #000; }
+
+h1.site-title, h2.site-description {
+  color: #fff;
+  text-align: center; }
+
+.site-header .site-title:hover {
+  text-decoration: none; }
+
+.page-id-61 h1.entry-title {
+  font-size: 8em; }
+
+footer p {
+  color: #000; }
+
+div#secondary {
+  background-color: #000; }
+
+.textwidget p {
+  line-height: 0;
+  margin-bottom: 10px; }
+
+.widget li {
+  padding: 2px; }
+
+.post-date {
+  font-size: .75em; }
+
+.site-info {
+  padding: 10px 0 1px 0; }
+
+h2.heart {
+font-size: .75em;
+padding-right: 15px;
+margin: 0;
+display: inline-block;
+
+}
+.dot-irecommendthis:hover img, .dot-irecommendthis.active img { 
+	background-position:0 -24px; 
+	color: #ac0404 !important; 
+	width: 10px;	
+}
+
+p.amp-meta {
+	margin-bottom: 7px;
+	text-align: right;
+
+}
+
+p.cats {
+    margin-top: -28px;	
+}
+
+div#infinite-handle {
+background-color: #fff;
+}
+
+span.desc {
+font-weight: bold;
+}
+
+
+.woocommerce div[itemprop=description] p {
+margin-bottom: 5px;
+}
+.woocommerce div[itemprop=description] {
+margin-bottom: 40px;
+font-size: .75em;
+line-height: 1.35em;
+}
+
+
+.woocommerce div.product form.cart .variations td.label, .woocommerce div.product form.cart .variations td.value {
+display: block;}
+
+.woocommerce ul.products a.button.add_to_cart_button, 
+.woocommerce ul.products a.button.product_type_variable,
+.woocommerce form.woocommerce-ordering,
+.woocommerce .product .woocommerce-tabs ul.tabs {
+display: none; }
+
+.woocommerce div.product div.images img, .woocommerce #content div.product div.images img, .woocommerce-page div.product div.images img, .woocommerce-page #content div.product div.images img {
+-webkit-box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.5) !important;
+-moz-box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.5) !important;
+box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.5) !important;
+}
+
+.entry-content {
+-webkit-hyphens: none !important;
+}
+
+.woocommerce ul.products li.product a img, .woocommerce-page ul.products li.product a img {
+box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5) !important;
+-webkit-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5) !important;
+-moz-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5) !important;
+}
+
+.woocommerce ul.products li.product .price .from, .woocommerce-page ul.products li.product .price .from {
+display: none !important;
+}
+
+.woocommerce div.product .product_title, .woocommerce #content div.product .product_title, .woocommerce-page div.product .product_title, .woocommerce-page #content div.product .product_title {
+font-size: 24px !important;
+}
+
+.woocommerce-breadcrumb {
+  display: none;
+}
+
+
+
+@media (max-width: 600px) {
+
+
+
+h2.site-description {
+ font-size: .85em;
+  }
+
+.site-header .home-link {
+min-height: 110px;
+}
+
+.site-title { 
+ padding-top: 20px;
+}
+
+p.cats {
+    margin-top: 0;	
+}
+
+p.amp-meta {
+	text-align: left;
+	margin-left: 40px;
+}
+
+
+
+
+}
+
+.page-id-1015 form {
+background: rgba(225,225,225, .9);
+border-radius: 25px;
+padding: 25px;
+width: 400px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 25px;
+}
+
+.page-id-1015  table {
+ width: 260px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 15px;
+}
+
+.page-id-1015 td {
+margin-bottom: 10px;
+}
+
+.page-id-1015 input {
+height: 30px;
+margin-top: 10px;
+}
+
+
+@media (max-width: 600px) {
+
+
+
+.page-id-1015 ul li {
+
+	max-width: 49%;
+	margin: 0 auto;
+}
+
+}
+
+
+@media (max-width: 400px) {
+
+
+
+.page-id-1015 ul li {
+
+	max-width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+
+}
